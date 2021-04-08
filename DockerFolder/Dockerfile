@@ -46,7 +46,7 @@ RUN echo "===> clean up..."  && \
 RUN echo "Reset."
 
 #Get the project
-RUN git clone https://github.com/caseycas/gitcproc /home/gitcproc
+RUN git git@github.com:Jawad-Mufti/gitcproc.git /home/gitcproc
 WORKDIR /home/gitcproc
 RUN git pull
 
